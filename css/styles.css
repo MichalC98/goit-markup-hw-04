@@ -186,10 +186,16 @@ p {
     box-sizing: content-box;
     height: 20px;
     width: 20px;
-    padding: 12px;
     fill: var(--white);
+}
+.social-icon-background {
+    padding: 12px;
     background-color: var(--footer-ellipse);
     border-radius: 50%;
+}
+.social-icon-background:hover,
+.social-icon-background:focus {
+    background-color: var(--main-blue);
 }
 .footer-flex-1 {
     display: flex;
@@ -348,16 +354,19 @@ p {
     box-sizing: content-box;
     height: 20px;
     width: 20px;
+}
+.sec-4-icon-background {
     padding: 12px;
-    fill: var(--client);
     background-color: var(--white);
     border-radius: 50%;
+    fill: var(--client);
 }
-.sec-4-icon:hover,
-.sec-4-icon:focus {
+.sec-4-icon-background:hover,
+.sec-4-icon-background:focus {
     fill: var(--white);
     background-color: var(--main-blue);
 }
+
 .sec-4-icon-flex {
     display: flex;
     justify-content: center;
