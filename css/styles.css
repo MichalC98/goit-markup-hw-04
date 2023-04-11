@@ -189,9 +189,11 @@ p {
     fill: var(--white);
 }
 .social-icon-background {
+    display: flex;
     padding: 12px;
     background-color: var(--footer-ellipse);
     border-radius: 50%;
+    cursor: pointer;
 }
 .social-icon-background:hover,
 .social-icon-background:focus {
@@ -356,10 +358,12 @@ p {
     width: 20px;
 }
 .sec-4-icon-background {
+    display: flex;
     padding: 12px;
     background-color: var(--white);
     border-radius: 50%;
     fill: var(--client);
+    cursor: pointer;
 }
 .sec-4-icon-background:hover,
 .sec-4-icon-background:focus {
@@ -396,7 +400,7 @@ p {
     padding: 16px 32px;
     border: 1px solid var(--client);
     border-radius: 4px;
-
+    cursor: pointer;
 }
 .sec-5-logo:hover,
 .sec-5-logo:focus {
